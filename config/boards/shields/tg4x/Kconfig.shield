@@ -1,0 +1,2 @@
+config SHIELD_TG4X
+    def_bool $(shield_list_contains, tg4x)
