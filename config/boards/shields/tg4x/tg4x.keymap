@@ -40,15 +40,5 @@
 &none    &none   &none    &none                        &none   &none    &kp LEFT  &kp DOWN           &kp RIGHT
 			>;
 		};
-
-		function_layer {
-			bindings = <
-&kp PRINTSCREEN &kp F1     &kp F2     &kp F3     &kp F4 &kp F5 &kp F6 &kp F7 &kp F8       &kp F9       &kp F10  &kp F11 &kp F12
-&1none          &none     &none     &none     &none &none &none &none &none       &none       &none           &none
-&1none          &bt BT_CLR &bt BT_PRV &bt BT_NXT &none &none &none &none &none  &sys_reset                        &none
-&1none          &1none     &1none     &1none                          &1none &kp C_VOL_UP &kp C_VOL_DN                  &kp C_PP
-			>;
-		};
-
 	};
 };
